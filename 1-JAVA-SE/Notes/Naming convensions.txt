@@ -1,0 +1,21 @@
+Naming convensions
+
+1. class:
+   starts with upper case letter. 
+   If there are any more than one word, then
+   second word first letter should be upper case letter
+Ex: Employee, DataInput, FileInputStream
+
+2. variables/methods:
+   starts with lower case letter.
+   If there are more than one word, then
+   second word first letter should be uppercase letter
+Ex: age, employeeName, processStudentData
+3. package name
+   starts with all lower case letters always
+  ex: java.lang, java.io, com.sunlife.employee
+4. const
+   starts aith all upper case letters always
+  ex: PI, FONT_NAME, MAX_AGE
+
+

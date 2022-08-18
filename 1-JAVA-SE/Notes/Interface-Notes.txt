@@ -1,0 +1,73 @@
+1. Super class can hold or store all its sub class objects
+2. The referance of super class can be used to access all the methods\
+   in the super class, and common methods/over ridden methods of sub classes.
+3. The referance of super class can not be used to access individual methods
+   (a method whoich is avaible in sub class and not available in super class)
+   of sub class.
+
+
+ Abstract class
+-----------------------
+-> An abstract class is a method specification which contains zero or more
+   abstract methods and concrete methods
+-> abstract method do not have body
+-> object to an abstract class can not be created. But referance can be created
+-> The referance of super class can be used to access all the methods\
+   in the abstractclass, and common methods/over ridden methods of sub classes.
+-> The referance of abstract class can not be used to access individual methods
+   (a method whoich is avaible in sub class and not available in super class)
+   of sub class.
+
+-> sub class of an abstract class must implement/override all the abstract methods
+   of the abstract class
+
+-> If any of sub class of abstract class not implmented any one of abstract methods,
+   then that sub class must be defined as abstract
+-> a class can not both 'abstract' and 'final'
+
+
+
+	if super class method defined as public, then sub class overriden 
+        method can be only public
+
+	if super class method defined as default,then sub class overriden 
+        method can be default,public,protected
+
+	if super class method defined as protected,then sub class overriden 
+        method can be public,protected
+
+
+   Interfaces
+-----------------
+-> Interface is an method specification which contains zero or more abstract 
+   methods only
+-> by default every method in interface is 'public' and 'abstract'
+-> by default every variable in interface is public static and final
+-> implements keyword is used to implement interface methods in a class
+-> class can implements more than one interface
+-> class can not extends more than one class
+-> class can not extends interface
+-> class can implement interface
+-> interface can not implments anoter interface
+-> interface can extends another interface
+-> interface can extends more than one interface
+-> a interface contains no methods is called 'marker' or 'tagged' interface
+
+
+
+        
+
+        
+
+	
+
+
+
+
+
+
+
+
+
+
+

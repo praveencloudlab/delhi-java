@@ -1,0 +1,16 @@
+
+=======================================================================
+Create following classes for a super market application development 
+=======================================================================
+
+=> Item class for item details like itemId,itemName,price,description,inStock
+=> ProductCalalogue class for categoryId,categoryType
+=> Brand class for brandId,brandName
+=> Stock class for stockId,itemId,quantity.
+=> User class for userId,firstName,lastName,emailAddress,mobileNumber
+=> Address class for addrId,addrType,address,userId
+=> Cart class for cartId,itemId,quatity,price
+=> Order class for orderId,orderDate,userId,itemId,total
+
+
+
