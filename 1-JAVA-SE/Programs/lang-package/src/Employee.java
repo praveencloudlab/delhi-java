@@ -1,12 +1,15 @@
+import java.util.Objects;
+
 public class Employee {
 
     private int empId;
     private String empName;
     private double salary;
 
+
     @Override
     public int hashCode() {
-        return 98989898;
+        return Objects.hash(empId, empName, salary);
     }
 
     @Override
