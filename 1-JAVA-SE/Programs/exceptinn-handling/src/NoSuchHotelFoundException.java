@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class NoSuchHotelFoundException {
+public class NoSuchHotelFoundException extends Exception{
+
+     NoSuchHotelFoundException(String msg){
+         super(msg);
+     }
+
 }
