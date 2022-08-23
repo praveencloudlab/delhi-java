@@ -1,0 +1,13 @@
+
+  Make a an application on banking domain for the following requirements 
+
+  1. Create Ann Account class with accNo, custName, balance
+   1.1 Create a default constructor and initialise values for accNo,custName and balance
+   2. Create a method in Account class  public void withDraw(double amount)
+   3. If amount passed in above method is greater than the balance of account, then
+       —> create a Checked exception class InsufficientFundsException 
+       —> create a parameterised constructor and pass on exception message to super class of Exception class
+       —> then handle this exception in Account class if condition is satisfied 
+   4. If amount is less than or equals to balance, then update the balance and display amount withdrawn 
+
+     
