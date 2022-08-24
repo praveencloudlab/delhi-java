@@ -1,8 +1,5 @@
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Use {
 
@@ -15,6 +12,9 @@ public class Use {
         Employee e5=new Employee(52,"Bfd",20000, LocalDate.of(1990,6,12));
 
 
+       List<Employee> emps= Arrays.asList(e1,e2,e3,e4,e5);
+
+        /*
         List<Employee> emps=new ArrayList<>();
 
         emps.add(e1);
@@ -22,6 +22,8 @@ public class Use {
         emps.add(e3);
         emps.add(e4);
         emps.add(e5);
+
+         */
 
         //System.out.println(emps);
         System.out.println("ORIGINAL DATA");
