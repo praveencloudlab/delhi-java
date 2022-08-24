@@ -1,4 +1,3 @@
-import com.sun.security.jgss.GSSUtil;
 
 import java.util.*;
 
@@ -20,7 +19,7 @@ public class ArrayLisstDemo {
         way 1: for each
         way 2: Iterator interface
         way 3: ListIteratior interface
-        way 4: Enumerator interface (synchronied)
+        way 4: Enumerator interface (synchronized)
 
 
 
