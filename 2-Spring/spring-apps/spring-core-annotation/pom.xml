@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>spring-core</artifactId>
+    <artifactId>spring-core-annotation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -21,7 +21,6 @@
             <artifactId>spring-context</artifactId>
             <version>5.3.22</version>
         </dependency>
-
 
     </dependencies>
 

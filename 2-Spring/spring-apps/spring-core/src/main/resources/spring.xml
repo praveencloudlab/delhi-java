@@ -4,9 +4,10 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="emp" class="Employee" lazy-init="true"/>
+    <bean name="e1,https://www.abc.com/employees/get/1,e3,e4" id="emp" class="Employee" scope="singleton" lazy-init="true"/>
 	<bean id="emp1" class="Employee" lazy-init="true"/>
-	<bean id="s1" class="Student" lazy-init="false"/>
+	<bean id="s1" class="Student" lazy-init="true"/>
+
 
 
 
