@@ -10,6 +10,7 @@ public class MainTest {
     public static void main(String[] args) {
 
         ApplicationContext ac=new AnnotationConfigApplicationContext(AppConfig.class);
+
         BillingServiceImpl biller= ac.getBean(BillingServiceImpl.class);
 
         String[] cart={"P01","P02"};
