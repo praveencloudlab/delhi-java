@@ -13,6 +13,7 @@ public class MainTest {
         BillingServiceImpl biller= ac.getBean(BillingServiceImpl.class);
 
         String[] cart={"P01","P02"};
+        //biller.f1();
 
         double total=biller.cartTotal(cart);
 
