@@ -185,3 +185,9 @@ ALTER TABLE `products`
   ADD CONSTRAINT `fk_product_brand` FOREIGN KEY (`product_brand`) REFERENCES `brands` (`brand_id`),
   ADD CONSTRAINT `fk_product_cat` FOREIGN KEY (`product_cat`) REFERENCES `categories` (`cat_id`);
 COMMIT;
+
+=================================================
+
+https://github.com/tracksdata/steer-batch4/blob/master/Spring-Boot/2-JDBC-Template/src/main/java/com/xoriant/ecart/dao/utils/DBQueries.java
+
+=================================================
